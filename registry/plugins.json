@@ -1,0 +1,128 @@
+{
+  "api": 1,
+  "plugins": [
+    {
+      "id": "cadcompress",
+      "name": "CAD 录屏压缩 (cadcompress)",
+      "version": "0.1.1",
+      "size": 8577026,
+      "sha256": "fdf318fec1ad292c67aaa18e879cd8443da41a5c6a1b45d7bb61b746392b9bfa",
+      "url": "https://github.com/chenghaowan/CadAvicompaseCraft/releases/download/v0.1.1/cadcompress_v0.1.1.zip",
+      "mirrors": [
+        "https://gitee.com/chenghao_wan/cad-avicompase-craft/releases/download/v0.1.1/cadcompress_v0.1.1.zip",
+        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/cadcompress_v0.1.1.zip"
+      ],
+      "description": "CATIA 录屏压缩工具 (cadcompress): 把屏幕录像体积压缩约 240 倍, 图形界面 + 命令行两种用法, 内置 ffmpeg (GPLv3, 许可证随包分发)。",
+      "recommended": false,
+      "tools": [
+        {
+          "id": "launch",
+          "label": "启动"
+        }
+      ]
+    },
+    {
+      "id": "cadmpeg",
+      "name": "CAD 格式转换 (cadmpeg)",
+      "version": "0.6.6",
+      "size": 43386769,
+      "sha256": "92a0d59445f501c647a9e4d66449b5494fde71d186e99636e14cdcffe2a345c1",
+      "url": "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/cadmpeg_v0.6.6.zip",
+      "description": "CAD 文件格式转换与检查 (cadmpeg): CATPart / SLDPRT / STEP / IGES / Rhino 等格式互转, 转换前自动检查模型错误; app 内「格式转换」页提供界面。",
+      "recommended": true,
+      "tools": [
+        {
+          "id": "convert",
+          "label": "格式转换"
+        }
+      ]
+    },
+    {
+      "id": "cadviewcraft",
+      "name": "CADViewCraft 3D 查看",
+      "version": "0.0.1",
+      "size": 17550692,
+      "sha256": "739fc3431c0adbde79fd7d36587da5fc9c9f00909996ca93a3e5425bf59c5bbb",
+      "url": "https://github.com/chenghaowan/CADViewCraft/releases/download/v0.0.1/cadviewcraft_v0.0.1.zip",
+      "mirrors": [
+        "https://gitee.com/chenghao_wan/cadview-craft/releases/download/v0.0.1/cadviewcraft_v0.0.1.zip",
+        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/cadviewcraft_v0.0.1.zip"
+      ],
+      "description": "自研 3D 模型查看器 (cadviewcraft): 独立启动查看 CAD 模型; 主线查看能力已并入 SolidCraft, 此插件为存档版本供备选。",
+      "recommended": false,
+      "tools": [
+        {
+          "id": "launch",
+          "label": "启动"
+        }
+      ]
+    },
+    {
+      "id": "catia-tools",
+      "name": "CATIA 工具集",
+      "version": "2026.10.28.1720",
+      "size": 68262382,
+      "sha256": "ac3547e26c2afb59ef07858f1a066b3b452f4e09b1ec35455138010bbaa1d25f",
+      "url": "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/catia-tools_v2026.10.28.1720.zip",
+      "description": "40+ CATIA 自动化工具 (pycatia): 图纸向导 / 曲面缝合 / 测量 / 装配分析 / 批量处理, 内置完整 Python 运行时, 目标机器无需安装 Python。",
+      "recommended": true,
+      "tools": [
+        {
+          "id": "tools",
+          "label": "CATIA 工具"
+        }
+      ]
+    },
+    {
+      "id": "pointtofix",
+      "name": "PointToFix 屏幕标注",
+      "version": "0.2.1",
+      "size": 13453678,
+      "sha256": "be29e4cc37f72e1abc2ac1d3fafabad63560591c47a17e68895c2110eb29cd27",
+      "url": "https://github.com/chenghaowan/pointtofixcraft/releases/download/v0.2.0/pointtofix_v0.2.1.zip",
+      "mirrors": [
+        "https://gitee.com/chenghao_wan/pointtofixcraft/releases/download/v0.2.0/pointtofix_v0.2.1.zip",
+        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/pointtofix_v0.2.1.zip"
+      ],
+      "description": "屏幕标注与截图工具 (PointToFix Craft): 待机面板一键进入标注模式, 画笔/箭头/图形/打叉盖章/选区截图, WebP 存图, 多显示器单屏标注, ISNet AI 去背 (无模型时降级键控去背)。",
+      "recommended": true,
+      "tools": [
+        {
+          "id": "launch",
+          "label": "启动"
+        }
+      ]
+    },
+    {
+      "id": "rscatiacli",
+      "name": "CATIA COM 工具 CLI (rscatiacli)",
+      "version": "0.0.1",
+      "size": 2080542,
+      "sha256": "49b145e196d848441829db4822637e47f3e127d92ec39258354ba4c04a54b20b",
+      "url": "https://github.com/chenghaowan/rscatiacli/releases/download/v0.0.1/rscatiacli_v0.0.1.zip",
+      "mirrors": [
+        "https://gitee.com/chenghao_wan/rscatiacli/releases/download/v0.0.1/rscatiacli_v0.0.1.zip",
+        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/rscatiacli_v0.0.1.zip"
+      ],
+      "description": "CATIA V5 COM 绑定与自动化工具命令行 (rscatiacli): 30+ 工具经 json 协议调用 (rscatiacli-tools.exe json <工具> <参数>), 需本机 CATIA V5 运行中; 主程序已内置同源代码, 此插件供独立/外部脚本使用。",
+      "recommended": false,
+      "tools": []
+    },
+    {
+      "id": "solidcraft",
+      "name": "SolidCraft 3D 查看",
+      "version": "0.0.9",
+      "size": 52232209,
+      "sha256": "a2e2b95b68192786c95c91269c33094e8050f95637d434ebfd87ab33df15c3dc",
+      "url": "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/solidcraft_v0.0.9.zip",
+      "description": "独立 3D 模型查看器 (solidcraft): 在 app 内双击 / 打开 STP、STEP 文件直接查看, 也可独立启动; 支持 STP/STEP (accepts 声明接管)。",
+      "recommended": true,
+      "tools": [
+        {
+          "id": "launch",
+          "label": "启动"
+        }
+      ]
+    }
+  ]
+}
