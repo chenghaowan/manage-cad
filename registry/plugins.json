@@ -2,6 +2,26 @@
   "api": 1,
   "plugins": [
     {
+      "id": "3dpdmcraft",
+      "name": "3D PDM (PDM Lite)",
+      "version": "0.1.0",
+      "size": 6200962,
+      "sha256": "bf681ab951027520b68bc785e52f4fe1a3d03374dc5bd3e29dc696de580b1f1b",
+      "url": "https://github.com/chenghaowan/3dPDMCraft/releases/download/v0.1.0/3dpdmcraft_v0.1.0.zip",
+      "mirrors": [
+        "https://gitee.com/chenghao_wan/3dPDMCraft/releases/download/v0.1.0/3dpdmcraft_v0.1.0.zip",
+        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/3dpdmcraft_v0.1.0.zip"
+      ],
+      "description": "轻量 CAD 数据管理 (3dPDMCraft): 双文件夹工作区按零件修订管理, 元数据经阿里云 OSS 对账合并 (无中心服务器), 冲突三选一 (用我的/用对方的/fork) 不丢数据, 零拷贝 fork, 历史保留裁剪, STEP 装配依赖图; 启动后本地 Web UI (127.0.0.1:8420)。",
+      "recommended": true,
+      "tools": [
+        {
+          "id": "launch",
+          "label": "启动"
+        }
+      ]
+    },
+    {
       "id": "cadcompress",
       "name": "CAD 录屏压缩 (cadcompress)",
       "version": "0.1.1",
@@ -85,6 +105,26 @@
         "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/pointtofix_v0.2.1.zip"
       ],
       "description": "屏幕标注与截图工具 (PointToFix Craft): 待机面板一键进入标注模式, 画笔/箭头/图形/打叉盖章/选区截图, WebP 存图, 多显示器单屏标注, ISNet AI 去背 (无模型时降级键控去背)。",
+      "recommended": true,
+      "tools": [
+        {
+          "id": "launch",
+          "label": "启动"
+        }
+      ]
+    },
+    {
+      "id": "rs-meetingrecorder-craft",
+      "name": "会议记录 (MeetingRecorder)",
+      "version": "0.1.0",
+      "size": 7882808,
+      "sha256": "c3948b45f6aa86ae90e3abbbb183cd170fe2d1085844469f5daaa478dd0882b7",
+      "url": "https://github.com/chenghaowan/rs-meetingrecorder-craft/releases/download/v0.1.0/rs-meetingrecorder-craft_v0.1.0.zip",
+      "mirrors": [
+        "https://gitee.com/chenghao_wan/rs-meetingrecorder-craft/releases/download/v0.1.0/rs-meetingrecorder-craft_v0.1.0.zip",
+        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/rs-meetingrecorder-craft_v0.1.0.zip"
+      ],
+      "description": "本地会议记录器 (rs-meetingrecorder-craft): 悬浮面板录音, 实时字幕条, whisper 本地转写, 说话人命名/声纹, LLM 结构化总结 (决议/行动项/风险), F8 截图关联, 会议包 JSON + RAG 入库; 数据全在本机。",
       "recommended": true,
       "tools": [
         {
