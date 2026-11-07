@@ -4,13 +4,12 @@
     {
       "id": "3dpdmcraft",
       "name": "3D PDM (PDM Lite)",
-      "version": "0.1.0",
-      "size": 6200962,
-      "sha256": "bf681ab951027520b68bc785e52f4fe1a3d03374dc5bd3e29dc696de580b1f1b",
-      "url": "https://github.com/chenghaowan/3dPDMCraft/releases/download/v0.1.0/3dpdmcraft_v0.1.0.zip",
+      "version": "0.2.0",
+      "size": 6700895,
+      "sha256": "ea8e65dc8f0bc88816445e6535afed13f0b04747f72f3213d686e15a725fe805",
+      "url": "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/3dpdmcraft_v0.2.0.zip",
       "mirrors": [
-        "https://gitee.com/chenghao_wan/3dPDMCraft/releases/download/v0.1.0/3dpdmcraft_v0.1.0.zip",
-        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/3dpdmcraft_v0.1.0.zip"
+        "https://gitee.com/chenghao_wan/3dPDMCraft/releases/download/v0.2.0/3dpdmcraft_v0.2.0.zip"
       ],
       "description": "轻量 CAD 数据管理 (3dPDMCraft): 双文件夹工作区按零件修订管理, 元数据经阿里云 OSS 对账合并 (无中心服务器), 冲突三选一 (用我的/用对方的/fork) 不丢数据, 零拷贝 fork, 历史保留裁剪, STEP 装配依赖图; 启动后本地 Web UI (127.0.0.1:8420)。",
       "recommended": true,
@@ -90,6 +89,26 @@
         {
           "id": "tools",
           "label": "CATIA 工具"
+        }
+      ]
+    },
+    {
+      "id": "ltl-call",
+      "name": "老头通讯 (ltl-chat)",
+      "version": "0.1.0",
+      "size": 31394594,
+      "sha256": "cce663167d6004bf86f9e1e0bdfe2f4bb4dcd4087057dd1344cb978cf28f6a95",
+      "url": "https://github.com/chenghaowan/rs-ltlcallcraft/releases/download/v0.1.0/ltl-call_v0.1.0.zip",
+      "mirrors": [
+        "https://gitee.com/chenghao_wan/rs-ltlcallcraft/releases/download/v0.1.0/ltl-call_v0.1.0.zip",
+        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/ltl-call_v0.1.0.zip"
+      ],
+      "description": "独立通讯模块 (老头通讯): iroh + iroh-gossip P2P 消息/群聊 (N0 中继 + mDNS 局域网直连), 飞书风桌面端, 服务器端可配置认证 (YM Auth/Casdoor/内置账号/静态令牌), GUI 启动时自动拉起本地服务; 多人使用时在登录页填中心服务器地址。",
+      "recommended": true,
+      "tools": [
+        {
+          "id": "launch",
+          "label": "打开消息"
         }
       ]
     },
