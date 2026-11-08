@@ -186,13 +186,13 @@
     {
       "id": "wanai-runtime",
       "name": "WanAI Runtime (AI 服务)",
-      "version": "0.1.1",
-      "size": 16685883,
-      "sha256": "9cf66004f89a532b9975ca9317d670c62422af6fa91020b6c559650d859b04e9",
-      "url": "https://github.com/chenghaowan/rs-aiprivader-craft/releases/download/v0.1.1/wanai-runtime_v0.1.1.zip",
+      "version": "0.2.0",
+      "size": 46724097,
+      "sha256": "42146746ba6e0970d54b327221ca1c5eda730fed02b456016347794a0c9a4016",
+      "url": "https://github.com/chenghaowan/rs-aiprivader-craft/releases/download/v0.2.0/wanai-runtime_v0.2.0.zip",
       "mirrors": [
-        "https://gitee.com/chenghao_wan/rs-aiprivader-craft/releases/download/v0.1.1/wanai-runtime_v0.1.1.zip",
-        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/wanai-runtime_v0.1.1.zip"
+        "https://gitee.com/chenghao_wan/rs-aiprivader-craft/releases/download/v0.2.0/wanai-runtime_v0.2.0.zip",
+        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/wanai-runtime_v0.2.0.zip"
       ],
       "description": "集中式 AI 运行时 (WanAI Runtime): 本地 ONNX 推理 (向量/OCR/去背/翻译/语音识别) + OpenAI 兼容 API 源管理与任务路由, 启动后托盘常驻, 管理面板 127.0.0.1:17800; 「大模型设置」(DeepSeek 等) 的配置与调用都经本服务。",
       "recommended": true,
