@@ -41,22 +41,6 @@
       ]
     },
     {
-      "id": "cadmpeg",
-      "name": "CAD 格式转换 (cadmpeg)",
-      "version": "0.6.6",
-      "size": 43386769,
-      "sha256": "92a0d59445f501c647a9e4d66449b5494fde71d186e99636e14cdcffe2a345c1",
-      "url": "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/cadmpeg_v0.6.6.zip",
-      "description": "CAD 文件格式转换与检查 (cadmpeg): CATPart / SLDPRT / STEP / IGES / Rhino 等格式互转, 转换前自动检查模型错误; app 内「格式转换」页提供界面。",
-      "recommended": true,
-      "tools": [
-        {
-          "id": "convert",
-          "label": "格式转换"
-        }
-      ]
-    },
-    {
       "id": "cadviewcraft",
       "name": "CADViewCraft 3D 查看",
       "version": "0.0.1",
