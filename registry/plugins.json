@@ -41,6 +41,23 @@
       ]
     },
     {
+      "id": "cadmpeg",
+      "name": "CAD 格式转换 (cadmpeg)",
+      "version": "0.6.6",
+      "size": 43386769,
+      "sha256": "92a0d59445f501c647a9e4d66449b5494fde71d186e99636e14cdcffe2a345c1",
+      "url": "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/cadmpeg_v0.6.6.zip",
+      "description": "CAD 文件格式转换与检查 (cadmpeg): CATPart / SLDPRT / STEP / IGES / Rhino 等格式互转, 转换前自动检查模型错误; app 内「格式转换」页提供界面。",
+      "recommended": true,
+      "tools": [
+        {
+          "id": "convert",
+          "label": "格式转换"
+        }
+      ],
+      "hidden": true
+    },
+    {
       "id": "cadviewcraft",
       "name": "CADViewCraft 3D 查看",
       "version": "0.0.1",
@@ -51,8 +68,8 @@
         "https://gitee.com/chenghao_wan/cadview-craft/releases/download/v0.0.1/cadviewcraft_v0.0.1.zip",
         "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/cadviewcraft_v0.0.1.zip"
       ],
-      "description": "自研 3D 模型查看器 (cadviewcraft): 独立启动查看 CAD 模型; 主线查看能力已并入 SolidCraft, 此插件为存档版本供备选。",
-      "recommended": false,
+      "description": "自研 3D 模型查看器 (cadviewcraft): 独立启动查看 CAD 模型, 推荐的正线查看器 (r179 起 solidcraft 已下架); Dashboard「打开 STP/STEP」走本插件。",
+      "recommended": true,
       "tools": [
         {
           "id": "launch",
@@ -74,6 +91,9 @@
           "id": "tools",
           "label": "CATIA 工具"
         }
+      ],
+      "requires": [
+        "rscatiacli"
       ]
     },
     {
@@ -149,7 +169,8 @@
       ],
       "description": "CATIA V5 COM 绑定与自动化工具命令行 (rscatiacli): 30+ 工具经 json 协议调用 (rscatiacli-tools.exe json <工具> <参数>), 需本机 CATIA V5 运行中; 主程序已内置同源代码, 此插件供独立/外部脚本使用。",
       "recommended": false,
-      "tools": []
+      "tools": [],
+      "hidden": true
     },
     {
       "id": "solidcraft",
@@ -165,7 +186,8 @@
           "id": "launch",
           "label": "启动"
         }
-      ]
+      ],
+      "hidden": true
     },
     {
       "id": "wanai-runtime",
