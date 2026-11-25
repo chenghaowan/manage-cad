@@ -238,7 +238,8 @@
           "id": "launch",
           "label": "启动 AI 服务"
         }
-      ]
+      ],
+      "hidden": true
     }
   ]
 }
