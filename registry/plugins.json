@@ -150,15 +150,15 @@
     {
       "id": "pointtofix",
       "name": "PointToFix 屏幕标注",
-      "version": "0.2.1",
-      "size": 13453678,
-      "sha256": "be29e4cc37f72e1abc2ac1d3fafabad63560591c47a17e68895c2110eb29cd27",
-      "url": "https://github.com/chenghaowan/pointtofixcraft/releases/download/v0.2.0/pointtofix_v0.2.1.zip",
+      "version": "0.3.4",
+      "size": 9094281,
+      "sha256": "76ec4f96199c1e90122412df7dc2f8b5be5c837317edcfdf5ca37e11f9083fca",
+      "url": "https://github.com/chenghaowan/pointtofixcraft/releases/download/v0.3.4/pointtofix_v0.3.4.zip",
       "mirrors": [
-        "https://gitee.com/chenghao_wan/pointtofixcraft/releases/download/v0.2.0/pointtofix_v0.2.1.zip",
-        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/pointtofix_v0.2.1.zip"
+        "https://gitee.com/chenghao_wan/pointtofixcraft/releases/download/v0.3.4/pointtofix_v0.3.4.zip",
+        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/pointtofix_v0.3.4.zip"
       ],
-      "description": "屏幕标注与截图工具 (PointToFix Craft): 待机面板一键进入标注模式, 画笔/箭头/图形/打叉盖章/选区截图, WebP 存图, 多显示器单屏标注, ISNet AI 去背 (无模型时降级键控去背)。",
+      "description": "屏幕标注与截图工具 (PointToFix Craft): 待机面板一键进入标注模式, 画笔/箭头/图形/打叉盖章/选区截图, WebP 存图, 多显示器单屏标注, ISNet AI 去背 (无模型时降级键控去背), 截图库 OCR 检索 + 无头 CLI (gallery 子命令, 供 app 内嵌截图库页调用), 升级重启握手/单实例; 不依赖 WanAI Runtime。",
       "recommended": true,
       "tools": [
         {
