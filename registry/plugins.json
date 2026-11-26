@@ -88,14 +88,15 @@
         "https://gitee.com/chenghao_wan/cadview-craft/releases/download/v0.0.1/cadviewcraft_v0.0.1.zip",
         "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/cadviewcraft_v0.0.1.zip"
       ],
-      "description": "自研 3D 模型查看器 (cadviewcraft): 独立启动查看 CAD 模型, 推荐的正线查看器 (r179 起 solidcraft 已下架); Dashboard「打开 STP/STEP」走本插件。",
+      "description": "自研 3D 模型查看器 (cadviewcraft): 独立启动查看 CAD 模型; r200 下架 (用户不要了, 查看器归回 solidcraft), 条目保留供清单/依赖解析, 已装残留同藏。",
       "recommended": true,
       "tools": [
         {
           "id": "launch",
           "label": "启动"
         }
-      ]
+      ],
+      "hidden": true
     },
     {
       "id": "catia-tools",
@@ -144,7 +145,8 @@
       "sha256": "c1e03bf967308f124ba36c1ea92c95cf7895bb7a51a481c17b0eaceada54cdf5",
       "url": "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/pdfcraft_v0.22.0.zip",
       "description": "PDF 编辑 (pdfcraft): 删除页/旋转/重排序(/pdfTools 页驱动, 基于 storytold/pdfcraft 容错解析器); 同时为 CATIA 图纸「导出PDF」提供 Detail 页剔除引擎。",
-      "recommended": true,
+      "recommended": false,
+      "thirdParty": true,
       "tools": []
     },
     {
@@ -211,14 +213,14 @@
       "sha256": "a2e2b95b68192786c95c91269c33094e8050f95637d434ebfd87ab33df15c3dc",
       "url": "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/solidcraft_v0.0.9.zip",
       "description": "独立 3D 模型查看器 (solidcraft): 在 app 内双击 / 打开 STP、STEP 文件直接查看, 也可独立启动; 支持 STP/STEP (accepts 声明接管)。",
-      "recommended": true,
+      "recommended": false,
+      "thirdParty": true,
       "tools": [
         {
           "id": "launch",
           "label": "启动"
         }
-      ],
-      "hidden": true
+      ]
     },
     {
       "id": "wanai-runtime",
