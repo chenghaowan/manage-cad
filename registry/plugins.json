@@ -135,7 +135,8 @@
           "id": "launch",
           "label": "打开消息"
         }
-      ]
+      ],
+      "hidden": true
     },
     {
       "id": "pdfcraft",
