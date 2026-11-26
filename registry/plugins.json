@@ -170,15 +170,15 @@
     {
       "id": "rs-meetingrecorder-craft",
       "name": "会议记录 (MeetingRecorder)",
-      "version": "0.1.0",
-      "size": 7882808,
-      "sha256": "c3948b45f6aa86ae90e3abbbb183cd170fe2d1085844469f5daaa478dd0882b7",
-      "url": "https://github.com/chenghaowan/rs-meetingrecorder-craft/releases/download/v0.1.0/rs-meetingrecorder-craft_v0.1.0.zip",
+      "version": "0.2.0",
+      "size": 40423828,
+      "sha256": "fecf20bcab1bd09b0ca3e1b86b22853148b153ccb2b232a3f5f462846ea42862",
+      "url": "https://github.com/chenghaowan/rs-meetingrecorder-craft/releases/download/v0.2.0/rs-meetingrecorder-craft_v0.2.0.zip",
       "mirrors": [
-        "https://gitee.com/chenghao_wan/rs-meetingrecorder-craft/releases/download/v0.1.0/rs-meetingrecorder-craft_v0.1.0.zip",
-        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/rs-meetingrecorder-craft_v0.1.0.zip"
+        "https://gitee.com/chenghao_wan/rs-meetingrecorder-craft/releases/download/v0.2.0/rs-meetingrecorder-craft_v0.2.0.zip",
+        "https://yimei2000-wch.oss-cn-hangzhou.aliyuncs.com/ltl-cadmanager/plugins/rs-meetingrecorder-craft_v0.2.0.zip"
       ],
-      "description": "本地会议记录器 (rs-meetingrecorder-craft): 悬浮面板录音, 实时字幕条, whisper 本地转写, 说话人命名/声纹, LLM 结构化总结 (决议/行动项/风险), F8 截图关联, 会议包 JSON + RAG 入库; 数据全在本机。",
+      "description": "本地会议记录器 (rs-meetingrecorder-craft): 悬浮面板录音 + 实时字幕, 采集/转写/说话人分离/翻译全本地 (SenseVoice + silero-VAD + CAM++ 声纹), LLM 结构化总结双模式 (OpenAI 兼容 API 或本地 GGUF, 按显存推荐), 纪要 minutes.md 内置 Nomo 阅读器一屏查看, 实时说话人标注, 会议直拍按时间关联发言; 音频不出本机。",
       "recommended": true,
       "tools": [
         {
